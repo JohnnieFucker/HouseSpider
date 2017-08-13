@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from spider.items import HouseItem
+from HouseSpider.items import HouseItem
 from scrapy.spiders import BaseSpider
 
 class HouseSpider(BaseSpider):
-    name = "spider"
+    name = "HouseSpider"
     allowed_domins = ["lianjia.com"]
     start_urls = []
     headers = {
